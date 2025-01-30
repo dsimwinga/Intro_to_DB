@@ -7,7 +7,7 @@ def create_database():
     try:
         # Establishing a connection to the MySQL server
         connection = mysql.connector.connect(
-            host='127.0.0.1',        # Use the appropriate host, e.g., 'localhost' or an IP
+            host='127.0.0.1',
             user='root',
             password=''
         )
